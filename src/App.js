@@ -13,7 +13,7 @@ function App() {
     };
 
     const deleteTodoItem = (index) => {
-        let newTodoList = [...todoList];
+        const newTodoList = [...todoList];
         newTodoList.splice(index, 1);
         setTodoList(newTodoList);
     };
